@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE xmeml>
+<xmeml version="5">
+
+  <importoptions>
+    <au2pr>TRUE</au2pr>
+  </importoptions>
+
+  <project>
+    <name>Secuencia 01.prproj-Secuencia 01 (Pistas AU) Audio</name>
+    <children>
+      <sequence id="secuencia-1">
+        <duration>348</duration>
+        <rate>
+          <timebase>254016000000</timebase>
+          <ntsc>FALSE</ntsc>
+        </rate>
+        <name>Secuencia 01.prproj-Secuencia 01 (Pistas AU) Audio</name>
+        <media>
+          <audio>
+            <format>
+              <samplecharacteristics>
+                <depth>32</depth>
+                <samplerate>48000</samplerate>
+              </samplecharacteristics>
+            </format>
+            <outputs>
+              <group>
+                <index>1</index>
+                <numchannels>1</numchannels>
+                <downmix>0</downmix>
+                <channel>
+                  <index>1</index>
+                </channel>
+              </group>
+              <group>
+                <index>2</index>
+                <numchannels>1</numchannels>
+                <downmix>0</downmix>
+                <channel>
+                  <index>2</index>
+                </channel>
+              </group>
+            </outputs>
+            <track>
+              <name>Audio 1</name>
+              <enabled>TRUE</enabled>
+              <locked>FALSE</locked>
+              <clipitem id="clipitem-0">
+                <name>Audio 1</name>
+                <enabled>TRUE</enabled>
+                <duration>3535902720000</duration>
+                <start>0</start>
+                <end>3535902720000</end>
+                <in>0</in>
+                <out>3535902720000</out>
+                <file id="0">
+                  <name>Audio 1.wav</name>
+                  <pathurl>file://localhost/C%3a/Users/YESENIA/Documents/Secuencia%2001.prproj-Secuencia%2001%20(Pistas%20AU)%20Audio/Audio%201.wav</pathurl>
+                  <rate>
+                    <timebase>254016000000</timebase>
+                    <ntsc>FALSE</ntsc>
+                  </rate>
+                  <duration>3535902720000</duration>
+                  <media>
+                    <audio>
+                      <samplecharacteristics>
+                        <depth>32</depth>
+                        <samplerate>48000</samplerate>
+                      </samplecharacteristics>
+                      <channelcount>2</channelcount>
+                    </audio>
+                  </media>
+                </file>
+                <sourcetrack>
+                  <mediatype>audio</mediatype>
+                  <trackindex>1</trackindex>
+                </sourcetrack>
+                <channelcount>2</channelcount>
+              </clipitem>
+              <channelcount>2</channelcount>
+              <outputchannelindex>25</outputchannelindex>
+            </track>
+            <track>
+              <name>Audio 2</name>
+              <enabled>TRUE</enabled>
+              <locked>FALSE</locked>
+              <channelcount>2</channelcount>
+              <outputchannelindex>25</outputchannelindex>
+            </track>
+            <track>
+              <name>Audio 3</name>
+              <enabled>TRUE</enabled>
+              <locked>FALSE</locked>
+              <channelcount>2</channelcount>
+              <outputchannelindex>25</outputchannelindex>
+            </track>
+          </audio>
+        </media>
+        <timecode>
+          <rate>
+            <timebase>25</timebase>
+            <ntsc>FALSE</ntsc>
+          </rate>
+          <frame>0</frame>
+          <displayformat>NDF</displayformat>
+        </timecode>
+      </sequence>
+    </children>
+  </project>
+
+</xmeml>
